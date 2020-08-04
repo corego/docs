@@ -1,0 +1,2 @@
+# docs
+Corego documents
