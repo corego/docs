@@ -1,32 +1,38 @@
 baseURL: "https://docs.corego.io/"
-defaultContentLanguage: "en"
-languageCode: "en-US"
-title: "Corego Documentation"
+defaultContentLanguage: "en-us"
 theme: "learn"
 copyright: "Corego"
 
 languages:
-  en:
-    contentDir: content/en
+  en-us:
+    contentDir: content/en-US
+    title: "Corego Documentation"
     languageName: English
+    languageCode: "en-US"
     weight: 10
-    menu:
+    params:
+      editURL: "https://github.com/corego/docs/edit/master/content/en-US/"
+      description: "Documentation for Corego"
 
-  zh-CN:
+  zh-cn:
     contentDir: content/zh-CN
+    title: "Corego 中文文档"
     languageName: 简体中文
+    languageCode: "en-US"
     weight: 20
-    menu:
-      shortcuts:
-        - name: "<i class='fab fa-fw fa-github'></i> GitHub"
-          url: https://github.com/corego/corego
-        - name: <i class='fas fa-fw fa-book'></i> GoDoc
-          url: https://pkg.go.dev/github.com/corego/corego 
+    params:
+      editURL: "https://github.com/corego/docs/edit/master/content/zh-CN/"
+      description: "Corego 中文文档"
   
 params:
-  editURL: "https://github.com/corego/docs/edit/master/"
-  description: "Documentation for Hugo Learn Theme"
   author: "Panlatent"
+
+menu:
+  shortcuts:
+    - name: "<i class='fab fa-fw fa-github'></i> GitHub"
+      url: https://github.com/corego/corego
+    - name: <i class='fas fa-fw fa-book'></i> GoDoc
+      url: https://pkg.go.dev/github.com/corego/corego 
 
 disqusShortname: corego
 googleAnalytics: UA-174590674-1
