@@ -1,4 +1,3 @@
-Corego Documentations
+Introduction to Corego
 ======================
-
 
